@@ -1,21 +1,77 @@
-# 🔹 Maximum Subarray Sum – Kadane’s Algorithm
+## 📘 DSA Problem Solutions Repository
 
-## Problem Statement
-Given an integer array, find the contiguous subarray with the largest sum and return its sum.
+Welcome to my **Data Structures and Algorithms (DSA) Problem Solutions** repository!  
+This repo contains well-structured solutions to common DSA problems, organized by topic for easy navigation and future expansion.
 
-## Arrays
--Maximum Subarray (Kadane's Algorithm)
+---
 
-## 🚀 How to Run a Problem
--python Arrays/max_subarray.py
+## 📂 Folder Structure
+DSA-Problems/
+│
+├── Arrays/
+│ └── max_subarray.md
+│
+├── DynamicProgramming/
+│ └── .gitkeep
+│
+├── Graph/
+│ └── .gitkeep
+│
+├── LinkedList/
+│ └── .gitkeep
+│
+├── Queue/
+│ └── .gitkeep
+│
+├── Stack/
+│ └── .gitkeep
+│
+├── Strings/
+│ └── .gitkeep
+│
+├── Trees/
+│ └── .gitkeep
+│
+└── README.md
 
-## 🎯 Purpose
-This repository is created to:
+---
 
--Practice DSA daily
 
--Build clean, well-organized solutions
+---
 
--Improve problem-solving and algorithm skills
+## ⭐ What This Repository Contains
 
--Track growth publicly on GitHub
+- 📌 Topic-wise categorized DSA problems  
+- 🧠 Clear problem statements  
+- 📝 Python solutions  
+- 🧩 Multiple approaches (added gradually)  
+- 🔧 Clean, scalable folder structure  
+
+---
+
+## 📁 Current Problem Added
+
+### **1️⃣ Arrays – Maximum Subarray Sum**  
+File: `Arrays/max_subarray.md`  
+Contains:
+- Problem statement  
+- Explanation  
+- Python solution  
+
+---
+
+## 🚀 How to Use This Repository
+
+- Browse any topic folder  
+- Open any problem `.md` file  
+- Read the description and solution  
+- More problems will be added soon!
+
+---
+
+## 🤝 Contributions
+
+This repository will grow daily with new DSA problems.  
+Feel free to ⭐ star the repository for updates!
+
+
