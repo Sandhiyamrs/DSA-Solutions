@@ -10,7 +10,8 @@ Given an integer array, find the contiguous subarray with the largest sum and re
 -python Arrays/max_subarray.py
 
 ## 🎯 Purpose
--This repository is created to:
+This repository is created to:
+
 -Practice DSA daily
 -Build clean, well-organized solutions
 -Improve problem-solving and algorithm skills
