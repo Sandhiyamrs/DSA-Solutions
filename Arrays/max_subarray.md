@@ -3,7 +3,7 @@
 ## Problem Statement
 Given an integer array, find the contiguous subarray with the largest sum and return its sum.
 
-##📘 Example
+## 📘 Example
 -Input: [-2,1,-3,4,-1,2,1,-5,4]
 -Output: 6
 
@@ -11,9 +11,11 @@ Given an integer array, find the contiguous subarray with the largest sum and re
 The subarray [4,-1,2,1] has the maximum sum = 6.
 
 ## 🧠Approach
-We iterate through the array and keep track of:
----current_sum → running sum of subarray
----max_sum → highest sum found so far
+-We iterate through the array and keep track of:
+
+current_sum → running sum of subarray
+max_sum → highest sum found so far
+
 -If current_sum becomes negative, we reset it to 0 because negative sums reduce the total.
 
 ## 🧩 Python Solution
