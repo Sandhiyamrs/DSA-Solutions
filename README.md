@@ -13,6 +13,9 @@ Given an integer array, find the contiguous subarray with the largest sum and re
 This repository is created to:
 
 -Practice DSA daily
+
 -Build clean, well-organized solutions
+
 -Improve problem-solving and algorithm skills
+
 -Track growth publicly on GitHub
