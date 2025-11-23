@@ -5,40 +5,6 @@ This repo contains well-structured solutions to common DSA problems, organized b
 
 ---
 
-## 📂 Folder Structure
-DSA-Problems/
-│
-├── Arrays/
-│ └── max_subarray.md
-│
-├── DynamicProgramming/
-│ └── .gitkeep
-│
-├── Graph/
-│ └── .gitkeep
-│
-├── LinkedList/
-│ └── .gitkeep
-│
-├── Queue/
-│ └── .gitkeep
-│
-├── Stack/
-│ └── .gitkeep
-│
-├── Strings/
-│ └── .gitkeep
-│
-├── Trees/
-│ └── .gitkeep
-│
-└── README.md
-
----
-
-
----
-
 ## ⭐ What This Repository Contains
 
 - 📌 Topic-wise categorized DSA problems  
