@@ -15,17 +15,6 @@ This repo contains well-structured solutions to common DSA problems, organized b
 
 ---
 
-## 📁 Current Problem Added
-
-### **1️⃣ Arrays – Maximum Subarray Sum**  
-File: `Arrays/max_subarray.md`  
-Contains:
-- Problem statement  
-- Explanation  
-- Python solution  
-
----
-
 ## 🚀 How to Use This Repository
 
 - Browse any topic folder  
