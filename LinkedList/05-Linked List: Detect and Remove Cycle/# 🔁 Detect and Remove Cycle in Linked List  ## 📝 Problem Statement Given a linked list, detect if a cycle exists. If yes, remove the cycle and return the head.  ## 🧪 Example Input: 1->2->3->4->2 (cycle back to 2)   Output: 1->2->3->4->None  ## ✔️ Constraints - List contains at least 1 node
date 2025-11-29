@@ -1,0 +1,25 @@
+class ListNode:
+    def __init__(self, val=0):
+        self.val = val
+        self.next = None
+
+def detect_remove_cycle(head):
+    slow = fast = head
+    # Detect cycle
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            break
+    else:
+        return head  # No cycle
+
+    # Remove cycle
+    slow = head
+    prev = None
+    while slow != fast:
+        prev = fast
+        slow = slow.next
+        fast = fast.next
+    prev.next = None
+    return head
