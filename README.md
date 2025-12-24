@@ -1,7 +1,6 @@
-## 📘 DSA Problem Solutions Repository
+# 📘 📘 DSA-Solutions – Multi-Language Data Structures & Algorithms
 
-Welcome to my **Data Structures and Algorithms (DSA) Problem Solutions** repository!  
-This repo contains well-structured solutions to common DSA problems, organized by topic for easy navigation and future expansion.
+A comprehensive Data Structures & Algorithms (DSA) repository containing well-structured, interview-ready solutions implemented in Python, Java, and C++.
 
 ---
 
@@ -24,9 +23,67 @@ This repo contains well-structured solutions to common DSA problems, organized b
 
 ---
 
-## 🤝 Contributions
+## 🧠 Languages Used
+
+🐍 Python
+
+☕ Java
+
+⚙️ C++
+
+-Each problem is implemented using optimal algorithms and industry-accepted approaches.
+
+---
+
+## 📊 Overall Statistics
+
+Category	Count
+
+Total Problems	110+
+
+Python Solutions✅
+
+Java Solutions	✅
+
+C++ Solutions	✅
+
+Difficulty	Easy → Hard
+
+Interview Ready	✅
+
+---
+
+## 🎯 Key Highlights
+
+Clean, minimal, and interview-optimized code
+
+Consistent naming & folder structure
+
+Multi-language implementations
+
+Covers LeetCode, GFG, and interview patterns
+
+Easy to extend with new problems
+
+---
+
+## 🚀 How to Use
+
+Choose a topic folder
+
+Read the problem statement (.md)
+
+Explore implementations in Python / Java / C++
+
+Practice & modify
+
+---
+
+## ⭐ If You Find This Useful
 
 This repository will grow daily with new DSA problems.  
-Feel free to ⭐ star the repository for updates!
+Don’t forget to star ⭐ the repository and share it with fellow learners.
+
+---
 
 
