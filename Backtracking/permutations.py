@@ -5,7 +5,6 @@ def permute(nums):
         if len(path) == len(nums):
             res.append(path[:])
             return
-
         for i in range(len(nums)):
             if used[i]:
                 continue
@@ -13,5 +12,5 @@ def permute(nums):
             backtrack(path + [nums[i]], used)
             used[i] = False
 
-    backtrack([], [False] * len(nums))
+    backtrack([], [False]*len(nums))
     return res
