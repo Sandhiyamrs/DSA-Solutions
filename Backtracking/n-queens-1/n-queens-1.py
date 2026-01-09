@@ -1,25 +1,19 @@
-def solve_n_queens(n):
+def solveNQueens(n):
     res = []
-    board = [-1]*n
+    cols, d1, d2 = set(), set(), set()
 
-    def is_valid(row, col):
-        for r in range(row):
-            if board[r] == col or abs(board[r]-col)==row-r:
-                return False
-        return True
-
-    def dfs(row):
-        if row == n:
-            res.append(['.'*c + 'Q' + '.'*(n-c-1) for c in board])
+    def backtrack(r, board):
+        if r == n:
+            res.append(board[:])
             return
-        for col in range(n):
-            if is_valid(row, col):
-                board[row] = col
-                dfs(row+1)
+        for c in range(n):
+            if c in cols or r - c in d1 or r + c in d2:
+                continue
+            cols.add(c); d1.add(r - c); d2.add(r + c)
+            board.append("." * c + "Q" + "." * (n - c - 1))
+            backtrack(r + 1, board)
+            board.pop()
+            cols.remove(c); d1.remove(r - c); d2.remove(r + c)
 
-    dfs(0)
+    backtrack(0, [])
     return res
-
-# Example usage
-n = 4
-print("Output:", solve_n_queens(n))
