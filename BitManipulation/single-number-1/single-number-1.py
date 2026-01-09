@@ -1,9 +1,5 @@
-def single_number(nums):
+def singleNumber(nums):
     res = 0
-    for num in nums:
-        res ^= num
+    for n in nums:
+        res ^= n
     return res
-
-# Example usage
-nums = [4,1,2,1,2]
-print("Output:", single_number(nums))
