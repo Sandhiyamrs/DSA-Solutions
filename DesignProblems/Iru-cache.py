@@ -17,11 +17,3 @@ class LRUCache:
         self.cache[key] = value
         if len(self.cache) > self.capacity:
             self.cache.popitem(last=False)
-
-# Example usage
-lru = LRUCache(2)
-lru.put(1,1)
-lru.put(2,2)
-print(lru.get(1))  # 1
-lru.put(3,3)
-print(lru.get(2))  # -1
