@@ -1,12 +1,11 @@
-def subarray_sum(nums, k):
+def subarraySum(nums, k):
     count = 0
-    curr = 0
-    seen = {0: 1}  # prefix sum frequencies
+    curr_sum = 0
+    mp = {0: 1}
 
-    for n in nums:
-        curr += n
-        need = curr - k
-        count += seen.get(need, 0)
-        seen[curr] = seen.get(curr, 0) + 1
+    for num in nums:
+        curr_sum += num
+        count += mp.get(curr_sum - k, 0)
+        mp[curr_sum] = mp.get(curr_sum, 0) + 1
 
     return count
