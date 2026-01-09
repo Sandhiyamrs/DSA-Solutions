@@ -4,9 +4,11 @@ def longestConsecutive(nums):
 
     for num in s:
         if num - 1 not in s:
-            length = 1
-            while num + length in s:
-                length += 1
-            longest = max(longest, length)
+            curr = num
+            streak = 1
+            while curr + 1 in s:
+                curr += 1
+                streak += 1
+            longest = max(longest, streak)
 
     return longest
