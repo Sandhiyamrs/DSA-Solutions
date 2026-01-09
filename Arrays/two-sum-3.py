@@ -1,8 +1,6 @@
-def two_sum(nums, target):
-    seen = {}
-
+def twoSum(nums, target):
+    mp = {}
     for i, num in enumerate(nums):
-        diff = target - num
-        if diff in seen:
-            return [seen[diff], i]
-        seen[num] = i
+        if target - num in mp:
+            return [mp[target - num], i]
+        mp[num] = i
